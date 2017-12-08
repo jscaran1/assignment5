@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: cadetblue;
+
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    display: block;
+}
+
+img {
+    width: 80vw;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 0px 0px;
+    float: inherit;
+
+}
+
+body {
+    background-color: aliceblue;
+}
+
+img {
+    width: 80vw;
+    vertical-align: middle;
+}
+
+
+img {
+    width: 80vw;
+    vertical-align: middle;
+}
+
+img {
+    width: 80vw;
+    vertical-align: middle;
+}
+
+
+
+a {
+    padding: 0px 0px 10px 0px;
+    display: block;
+    text-align: center;
+
+}
+
+a:link {
+    color: darkcyan;
+
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+}
+
+a:active {
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
+
+
+
+header {
+    text-align: center;
+
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+meta {}
+
+li {
+    text-align: center
+}
+
+ul {
+    padding-right: 0;
+
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+footer {
+    text-align: center;
+    color: firebrick;
+}
+
+#twocolumn {
+    column-count: 2;
+}

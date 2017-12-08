@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        .inlineBlock {
+            display: inline-block;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="/img/adopt%20dont%20shop.jpg" alt="Adopt Don't Shop Logo" style="width:150px;">
+    <a class="homepage-nav" href="WhyAdopt.html">Why Adopt?</a>
+    <a class="homepage-nav" href="WheretoAdopt.html">Where To Adopt</a>
+    <a class="homepage-nav" href="homepage.html">Home</a>
+    <a class="homepage-nav" href="tables.html">Statistics</a>
+    <div class="contact-form">
+        <h1>Contact Us!</h1>
+        <h4>Subscribe To Our Newsletter!</h4>
+        <form method="get">
+            <label>First Name: <input type="text" name="fname" id="fname"></label><br><br>
+            <label>Last Name: <input type="text" name="lname" id="lname"></label><br><br><label>E-mail: <input type="text" name="email" id="email"></label><br><br>
+            <h4>Leave Us A Comment!</h4>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Contact"> <input type="reset"><br><br>
+            <h4>Rate Our Site!</h4>
+            <label for=myRating>Rating (1 - 10):</label>
+            <input type="range" name="myRating" id="myRating" min="1" max="10">
+            <h4>Have You Adopted Before?</h4>
+            <fieldset>
+                <legend>Adoption</legend>
+                <input type="radio" class="inlineBlock" name="adoption" value="Has adopted">I have adopted!<br>
+                <input type="radio" class="inlineBlock" name="adoption" value="Has not adopted">I have not adopted<br> 
+            </fieldset>
+
+
+
+
+
+        </form>
+    </div>
+</body>
